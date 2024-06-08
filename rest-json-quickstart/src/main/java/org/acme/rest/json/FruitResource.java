@@ -21,7 +21,7 @@ public class FruitResource {
 
     @GET
     public Set<Fruit> list() {
-        sleep(100);
+        Thread.sleep(100);
         return fruits;
     }
 
